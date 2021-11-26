@@ -1,7 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EMigrante.App.Dominio\EMigrante.App.Dominio.csproj" />
+    <ProjectReference Include="..\EMigrante.App.Persistencia\EMigrante.App.Persistencia.csproj" />
   </ItemGroup>
 
 </Project>
